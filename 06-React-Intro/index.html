@@ -10,12 +10,25 @@
     <div id="app">
 
     </div>
-    <script type="text/label">
-        
+    <script type="text/babel">
+        class HelloWorld extends React.Component{
+            render(){
+                return(
+                    <div>
+                        Hola, Soy Henry!!
+                    </div>
+                )
+            }
+        }
 
+        function HelloWorldFunction(){
+            return(
+                <div>
+                    HOLA, SOUY Henry,
+                </div>
+            )
+        }
+        React.DOM.render(<HelloWorld/>, document.getElementById(app));
     </script>
-
-
-
   </body>
 </html>
